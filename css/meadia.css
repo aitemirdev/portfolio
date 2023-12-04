@@ -1,0 +1,83 @@
+@media (max-width: 999px) {
+    .about-skills {
+        flex-direction: column;
+    }
+
+    .skills-left {
+        width: 100%;
+    }
+
+    .portfolio-tabs-block {
+        width: 49%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .about-blocks {
+        flex-wrap: wrap;
+    }
+
+    .about-block {
+        margin: 10px 0;
+        width: 45%;
+    }
+
+    .contact_form {
+        width: 75%;
+    }
+}
+
+@media (max-width: 765px) {
+    .nav-one,
+    .nav-two,
+    .nav-three,
+    .nav-four {
+        display: none;
+    }
+
+    .burger-menu button {
+        display: block;
+    }
+}
+
+@media (max-width: 590px) {
+    .portfolio-tabs-block {
+        width: 100%;
+    }
+
+    .portfolio-tabs-title label {
+        margin: 5px 0;
+    }
+
+    .portfolio-tabs-title {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hello-text h1 {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .skills-right {
+        width: 100%;
+    }
+
+    .contact_text h4{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .contact_form{
+        width: 90%;
+    }
+
+    .skills-left-block div h1{
+        width: 90px;
+    }
+
+    .btn-12 span {
+        left: -64px;
+    }
+}
